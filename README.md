@@ -1,3 +1,53 @@
+
+#FORK PROJECT
+Origin https://github.com/navasmdc/MaterialDesignLibrary
+#FIX PROJECT
+
+- SetText Button programmatically
+- conflict error ""Error:Attribute "rippleColor" has already been defined"" which occurs when you use Material Design Library
+
+#ADDING SOME FEATURE
+
+- ImageButtonFlat
+
+```xml
+<com.hallaz.dompet.materialdesignporter.views.ImageButtonFlat
+                android:id="@+id/img_buttonflat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="your .png rsc" />
+```
+
+- ImageButtonFloat
+
+<com.hallaz.dompet.materialdesignporter.views.ImageButtonFloat
+                android:id="@+id/img_buttonFloat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:src="your .png rsc" />
+```
+
+- ButtonFlatVertical
+
+<com.hallaz.dompet.materialdesignporter.views.ButtonFlatVertical
+                android:id="@+id/buttonFlatVertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vertical" />
+```
+
+
+- ButtonVertical
+
+<com.hallaz.dompet.materialdesignporter.views.ButtonVertical
+                android:id="@+id/buttonVertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:text="Vertical" />
+
+
 ![Material design library logo](images/logo.png)
 
 # Material Design Android Library

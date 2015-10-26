@@ -1,7 +1,4 @@
-package com.gc.materialdesign.views;
-
-import com.gc.materialdesign.R;
-import com.gc.materialdesign.utils.Utils;
+package com.hallaz.dompet.materialdesignporter.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -12,10 +9,16 @@ import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class ButtonFlat extends Button {
+import com.hallaz.dompet.R;
+import com.hallaz.dompet.materialdesignporter.utils.Utils;
+
+/**
+ * Created by hallaz on 10/26/2015.
+ */
+public class ButtonFlatVertical extends ButtonVertical {
 
 
-    public ButtonFlat(Context context, AttributeSet attrs) {
+    public ButtonFlatVertical(Context context, AttributeSet attrs) {
         super(context, attrs);
 
     }
@@ -41,7 +44,7 @@ public class ButtonFlat extends Button {
             text = attrs.getAttributeValue(ANDROIDXML, "text");
         }
         if (text != null) {
-            textButton = new TextView(getContext());
+            textButton = new VerticalTextView(getContext());
             textButton.setText(text.toUpperCase());
             textButton.setTextColor(backgroundColor);
             textButton.setTypeface(null, Typeface.BOLD);
