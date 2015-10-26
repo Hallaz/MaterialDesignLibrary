@@ -1,4 +1,5 @@
-package com.hallaz.dompet.materialdesignporter.views;
+package com.gc.materialdesign.views;
+
 
 import android.content.Context;
 import android.graphics.Canvas;

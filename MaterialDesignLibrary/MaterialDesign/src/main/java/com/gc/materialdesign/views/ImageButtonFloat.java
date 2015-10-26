@@ -1,4 +1,7 @@
-package com.hallaz.dompet.materialdesignporter.views;
+package com.gc.materialdesign.views;
+
+import com.gc.materialdesign.R;
+import com.gc.materialdesign.utils.Utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,8 +17,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.hallaz.dompet.R;
-import com.hallaz.dompet.materialdesignporter.utils.Utils;
+
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.view.ViewHelper;
 
@@ -62,7 +64,7 @@ public class ImageButtonFloat extends Button {
         rippleSize = Utils.dpToPx(5, getResources());
         setMinimumWidth(Utils.dpToPx(sizeRadius * 2, getResources()));
         setMinimumHeight(Utils.dpToPx(sizeRadius * 2, getResources()));
-        super.background =  R.drawable.background_button_rectangle;
+        super.background = R.drawable.background_button_rectangle;
 //		super.setDefaultProperties();
     }
 

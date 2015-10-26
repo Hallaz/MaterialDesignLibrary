@@ -1,4 +1,7 @@
-package com.hallaz.dompet.materialdesignporter.views;
+package com.gc.materialdesign.views;
+
+import com.gc.materialdesign.R;
+import com.gc.materialdesign.utils.Utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,8 +15,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.TextView;
 
-import com.hallaz.dompet.R;
-import com.hallaz.dompet.materialdesignporter.utils.Utils;
 
 /**
  * Created by hallaz on 10/26/2015.
