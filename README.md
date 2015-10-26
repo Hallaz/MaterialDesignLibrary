@@ -47,6 +47,7 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
                 android:background="#1E88E5"
                 android:text="Vertical" />
 
+```
 
 ![Material design library logo](images/logo.png)
 
