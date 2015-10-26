@@ -11,7 +11,7 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
 - ImageButtonFlat
 
 ```xml
-<com.hallaz.dompet.materialdesignporter.views.ImageButtonFlat
+<com.gc.materialdesign.views.ImageButtonFlat
                 android:id="@+id/img_buttonflat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -21,7 +21,7 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
 - ImageButtonFloat
 
 ```xml
-<com.hallaz.dompet.materialdesignporter.views.ImageButtonFloat
+<com.gc.materialdesign.views.ImageButtonFloat
                 android:id="@+id/img_buttonFloat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -32,7 +32,7 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
 - ButtonFlatVertical
 
 ```xml
-<com.hallaz.dompet.materialdesignporter.views.ButtonFlatVertical
+<com.gc.materialdesign.views.ButtonFlatVertical
                 android:id="@+id/buttonFlatVertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -43,7 +43,7 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
 - ButtonVertical
 
 ```xml
-<com.hallaz.dompet.materialdesignporter.views.ButtonVertical
+<com.gc.materialdesign.views.ButtonVertical
                 android:id="@+id/buttonVertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
