@@ -52,7 +52,9 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
 
 ```
 
+- Dependency
 
+You have to add these lines in your build.gradle file:
 ```xml
  repositories {
         maven { url "https://jitpack.io" }
