@@ -52,6 +52,19 @@ Origin https://github.com/navasmdc/MaterialDesignLibrary
 
 ```
 
+
+```xml
+ repositories {
+        maven { url "https://jitpack.io" }
+    }
+
+ dependencies {
+         compile 'com.github.Hallaz:MaterialDesignLibrary:1.7'
+     }
+```
+
+
+
 ![Material design library logo](images/logo.png)
 
 # Material Design Android Library
